@@ -44,7 +44,7 @@ function getPackageJson() {
 function getAppRootFolder() {
     return new Promise((resolve, reject) => {
         // npm prefix returns the closest parent directory to contain a package.json file
-        exec("cd .. && npm prefix", (err, stdout) => {
+        exec("npm prefix", (err, stdout) => {
             if (err) {
                 return reject(err);
             }
