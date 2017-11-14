@@ -6,5 +6,5 @@ You can create a new app that uses this template with the `--template` option. A
 
 ```
 cd apps
-tns create mobile-app-name --template https://github.com/NathanWalker/template-nativescript-nx
+tns create mobile --template https://github.com/hatemhosny/template-nativescript-nx
 ```
